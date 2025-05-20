@@ -3,7 +3,7 @@
 		<field name="name">people5.form</field>
 		<field name="model">people5</field>
 		<field name="arch" type="xml">
-			<form string="People">
+			<form string="People5">
 				<sheet>
 					<group>
 						<field name="name" />
@@ -21,9 +21,9 @@
 	</record>
 
 	<record id="people_action" model="ir.actions.act_window">
-		<field name="name">People</field>
+		<field name="name">People5</field>
 		<field name="type">ir.actions.act_window</field>
-		<field name="res_model">people</field>
+		<field name="res_model">people5</field>
 	</record>
 
 	<menuitem id="menu_people" name="Reference Field" parent="menu_field" action='people_action' />
