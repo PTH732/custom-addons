@@ -1,5 +1,5 @@
 {
-    'name': "module-reference-field",
+    'name': "module-compute-field",
     'summary': """Short (1 phrase/line) summary of the module's purpose, used as subtitle on modules listing or apps.openerp.com""",
     'description': """
         Long description of module's purpose
@@ -10,7 +10,7 @@
     'version': '0.1',
     'data': [
         'views/root_menu.xml',
-        'views/people5_views.xml',
+        'views/people6_views.xml',
     ],
     'depends': ['base'],
     'installable': True,

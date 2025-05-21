@@ -1,6 +1,7 @@
 from odoo import models, fields
 
-class People(models.Model):
+
+class People5(models.Model):
     _name = 'people5'
     _description = 'People5'
 

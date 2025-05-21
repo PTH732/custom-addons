@@ -1,3 +1,4 @@
+
 <odoo>
-	<menuitem id="menu_field" name="Field3" />
+	<menuitem id="menu_field" name="Field2" />
 </odoo>
